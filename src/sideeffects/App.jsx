@@ -7,21 +7,23 @@ export default function App() {
     const Increment =() => {
       setCounter(counter + 1)
     }
-
+   
     // useEffect(() =>  {
     //   setCounter(10)
     // }, [])
+  
 
    useEffect(() =>  {
    let Interval =  setInterval(() => {
         setCounter(counter + 1)
     }, 1000) 
-
-    // clean up function
+    
+  //   // clean up function
     return () => {
         clearInterval(Interval)
     }
     }, [counter]) 
+
 
   return (
     <div>

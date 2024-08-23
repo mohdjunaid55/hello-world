@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 // Mounting ----------------
+
 export default class App extends Component {
   // 1. Constructor is called first
   constructor() {

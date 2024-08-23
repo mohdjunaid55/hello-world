@@ -1,10 +1,10 @@
 
-import React, {useEffect, useRef, useState} from 'react'
+import React, { useRef } from 'react'
 
 export default function App() {
         // let paragraphRef = React.useRef();
         let paragraphRef = useRef();  // es trha bhi likh skte hai
-        let inputRef = useRef();
+        // let inputRef = useRef();
 
 
     const getDetails = () => {
@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <div>
-        <input type="text" ref={inputRef} />
+        {/* <input type="text" ref={inputRef} /> */}
 
         <p ref={paragraphRef}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Possimus nemo velit dicta eos quo harum cum exercitationem iste a ab quam iure,

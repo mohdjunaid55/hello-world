@@ -1,6 +1,7 @@
 import React, { useReducer} from 'react'
-export default function App1() {
 
+export default function App1() {
+    // hmne tha function bna liya
 const counterReducer =(state, action) =>{
     console.log(state, action);
 
@@ -15,8 +16,8 @@ const counterReducer =(state, action) =>{
     return state;
 }
 
-   let [counter, dispatch] = useReducer(counterReducer, 0)
 
+let [counter, dispatch] = useReducer(counterReducer, 0)
 
   const Increment = () => {
     dispatch({

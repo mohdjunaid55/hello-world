@@ -6,7 +6,8 @@
 // ---------------------- use default 
 
 // export default function FunctionalComponents (){
-//     return <h1> normal functionalComponens</h1>
+//     return 
+{/* <h1> normal functionalComponens</h1> */}
 // }
 
 

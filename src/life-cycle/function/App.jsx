@@ -9,18 +9,23 @@ export default function App() {
     setCounter(counter + 1);
   }
 
+// ye jb bhi load hoga chal jaye ga or value change hogi tb bhi
   // componentDidUpdate
   // useEffect(() => {
   //   console.log("use Effect");
   //   console.log(counter);
   // })
 
-  // componentDidMount
+
+  // ye only jb chale ga jb componet load ho uske bad na chale 
+  // componentDidMount  
 //  useEffect(() => {
 //     console.log("use Effect");
 //     console.log(counter);
 //   }, [])
 
+
+// jb bhi value  change ho jbhi rerandar hoga 
   // componentDidUpdate with dependencies
   useEffect(() => {
     console.log("use Effect");
